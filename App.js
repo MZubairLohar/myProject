@@ -5,9 +5,10 @@ export default function App() {
   return (
     <View style={styles.container}>
       <View style={styles.header}>
-        <Text style={styles.boldText}>Hello World!!!</Text>
+        <Text style={styles.boldText}>React Native</Text>
       </View>
       <View style={styles.body}>
+        <Text style={styles.body}>bold Text</Text>
         <Text>My First Project</Text>
       </View>
     </View>
@@ -30,5 +31,6 @@ const styles = StyleSheet.create({
   body: {
     backgroundColor: 'blue',
     padding: 20,
+    fontWeight:'bold'  //it wont work until declear it in text tag
   }
 });
